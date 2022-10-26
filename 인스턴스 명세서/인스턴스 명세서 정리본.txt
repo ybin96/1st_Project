@@ -1,0 +1,82 @@
+dept(부서)테이블
+
+insert into dept values(1,'인사');
+insert into dept values(2,'개발');
+insert into dept values(3,'영업');
+insert into dept values(4,'기획');
+insert into dept values(5,’총무’);
+
+emp(사원) 테이블
+
+insert into emp values(1,101,1234,'김민수','팀장','5555','kim@naver.com','sayout',null,'서울특별시 광진구 구의로 62 ','1995/11/12',5000,'연세대학교 경영학과 졸',10,'2022/03/01','null','951112-1012345');
+insert into emp values(1,102,1234,'김지영','대리','5566','ji@naver.com','sayout',null,'경기도 성남시 성남6로 72 102동 105호','1996/11/22',4000,'고려대학교 컴퓨터공학과 졸',9,'2021/05/03','null','961122-2012345');
+insert into emp values(1,103,1234,'정의현','사원','5577','jeong@naver.com','sayout',null,'인천광역시 남구 미추홀로 54','1997/10/11',3000,'한양대학교 기계공학과 졸',8,'2022/09/19','null','971112-1023456');
+insert into emp values(2,201,1234,'이지수','팀장','2001','lee07@naver.com','sayout',null,'인천광역시 부평구 부평로 85','1975/07/17',6500,'서울대학교 컴퓨터공학과 졸',15,'2019/05/17','null','750717-2285968');
+insert into emp values(2,202,1234,'김희찬','대리','2002','kim08@naver.com','sayout',null,'서울시 마포구 연남로 65 305동 105호','1988/08/14', 5000,'인하대학교 경제학과 졸',18,'2018/02/11','null','880814-1583968');
+insert into emp values(2,203,1234,'박초희','사원','2003','park11@naver.com','sayout',null,'부산광역시 연제구 연산로 95','1993/11/27', 3500,'한양대학교 컴퓨터학과 졸',13,'2021/07/30','null','931127-2658848');
+insert into emp values(3,301,1234,'박광식','팀장','3331','parksalese@systemout.com','sayout',null,'강원도 원주시 원주로 5','1995/12/12',600,'한양대학교 행정학과 졸',20,'2018/01/22',null,'951212-1234567');
+insert into emp values(3,302,1234,'이호형','대리','3332','leesales@systemout.com','sayout',null,'경기도 고양시 일산서로 82','1995/11/15',500,'상명대학교 중국어과 졸',15,'2019/08/11',null,'951115-1234567');
+insert into emp values(3,303,1234,'정우성','사원','3333','jeongsales@systemout.com','sayout',null,'전라북도 전주시 풍남동3가 기린대로 8','1995/01/02',300,'건국대학교 국어국문과 졸',10,'2022/08/23',null,'950102-1234567');
+insert into emp values(4,401,1234,'김기획','팀장','4152','kkh1511@gmail.com','sayout',null,'서울시특별시 강남구 청담로 32 105호','1978/05/16',10000,'서울대학교 경영대학원 졸',3,'2008/03/15',null,'780516-1548851');
+insert into emp values(4,405,1234,'박획기','대리','4812','groundbreaking@gmail.com','sayout',null,'서울특별시 구로구 오륜8로 52','1980/06/21',8000,'고려대학교 철학과 졸',15,'2012/08/17',null,'800621-1830011');
+insert into emp values(4,431,1234,'이철수','사원','4615','ironwater@gmail.com','sayout',null,'서울특별시 송파구 문정법조단지로 8','1992/06/15',4800,'서울사이버대학교 마케팅기획과 졸',28,'2017/09/15',null,'920615-1954352');
+insert into emp values(5,501,1234,'박재범','팀장','5551','jpark@systemout.com','sayout',null,'서울특별시 강남구 강남로 82','1990/05/06',800,'연세대학교 철학과 졸',20,'2018/03/22',null,'900506-1234567');                                                            
+insert into emp values(5,502,1234,'아이유','대리','5552','iu@systemout.com','sayout',null,'서울특별시 관악구 서울대로 21','1994/06/07',600,'서강대학교 경제학과 졸',10,'2019/05/12',null,'940607-2234567');                                                               
+insert into emp values(5,503,1234,'우영우','사원','5553','youngwoo@systemout.com','sayout',null,'경기도 성남시 위례로 5','1999/11/12',500,'성균관대학교 인도어과 졸',10,'2022/03/11',null,'991112-1234567');           
+
+
+eva(평가)테이블
+
+insert into eva values(101,7,7,7,7,7);
+insert into eva values(102,8,7,6,9,2);
+insert into eva values(103,9,9,9,9,1);
+insert into eva values(201,10,8,9,8,10);
+insert into eva values(202,9,8,8,7,6);
+insert into eva values(203,8,6,9,7,10);
+insert into eva values(301,9,8,8,7,6);
+insert into eva values(302,7,8,9,7,7);
+insert into eva values(303,6,5,7,7,4);
+insert into eva values(401,9,8,8,9,9);
+insert into eva values(405,8,7,7,9,8);
+insert into eva values(431,6,6,7,6,6);
+insert into eva values(501,8,7,9,6,8);                 
+insert into eva values(502,9,9,8,7,8);                 
+insert into eva values(503,8,7,8,9,8);      
+
+career(경력)테이블
+
+insert into career values(101,'삼성','2018/01/12','2019/12/31','총무','대리');
+insert into career values(102,'쌍용','2020/05/01','2020/11/01','인사','사원');
+insert into career values(201,'삼성전자','2000/09/15','2012/05/01','앱개발엔지니어','과장');
+insert into career values(201,'현대자동차','2012/06/05','2019/04/11','앱개발엔지니어','팀장');
+insert into career values(202,'카카오엔터','2013/07/17','2018/01/03','앱개발엔지니어','사원');
+insert into career values(301,'삼성','2017/01/05','2018/01/20','영업','과장');
+insert into career values(302,'엘지','2018/08/08','2019/08/14','영업','대리');
+insert into career values(401,'삼성화재','2002/1/12','2004/6/5','영업','대리');
+insert into career values(401,'현대카드','2004/6/6','2008/3/14','마케팅','팀장');
+insert into career values(405,'대한솔루션','2007/6/12','2008/6/5','영업','사원');
+insert into career values(405,'대부캐피탈','2008/6/12','2010/8/5','총무','대리');
+insert into career values(405,'한국광고','2010/8/12','2012/8/5','마케팅','팀장');
+insert into career values(501,'삼성','2017/01/05','2018/01/20','영업','과장');                   
+insert into career values(502,'현대','2018/08/08','2019/08/14','총무','대리');               
+                                                  
+certi(자격증)테이블
+
+insert into certi values(101,'TOEIC','2020/05/05','780','2020/05/05','2022/05/05');
+insert into certi values(102,'TOEIC','2021/04/04','880','2021/04/04','2023/04/04');
+insert into certi values(103,'TOEIC','2021/07/07','900','2021/07/07','2023/07/07');
+insert into certi values(201,'TOEIC','2021/05/19','880','2021/05/05','2023/05/04');
+insert into certi values(202,'TOEIC','2020/12/11','900','2020/11/27','2022/11/26');
+insert into certi values(203,'TOEIC','2021/03/25','950','2021/03/06','2023/03/05');
+insert into certi values(203,'정보처리기사','2021/01/17',null,'2020/01/17',null);
+insert into certi values(301,'TOEIC','2017/11/11','900','2017/11/11','2019/11/10');
+insert into certi values(301,'무역영어','2017/10/10','1급','2017/10/10',null);
+insert into certi values(302,'TOEIC','2019/07/07','950','2019/07/07','2021/07/06');
+insert into certi values(405,'한국사검정','2019/05/15','3급','2019/05/15',null);
+insert into certi values(431,'한국사검정','2020/05/15','2급','2020/05/15',null);
+insert into certi values(431,'TOEIC','2021/09/31','950','2021/09/31','2023/09/31');
+insert into certi values(431,'TOEIC SPEAKING','2022/05/15','965','2022/05/15','2024/05/15');
+insert into certi values(431,'컴퓨터활용능력','2018/09/21','1급','null','null');
+insert into certi values(501,'TOEIC','2016/05/11','900','2016/05/11','2018/05/10');                   
+insert into certi values(502,'TOEIC','2018/07/11','920','2018/07/11','2020/07/10');                   
+insert into certi values(503,'TOEIC','2019/07/07','950','2019/07/07','2021/07/06');     
