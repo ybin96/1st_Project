@@ -1,6 +1,6 @@
 # 1st_mini_Project
 
-**Java + Oracle DB_인사관리 프로그램**
+Java + Oracle DB_인사관리 프로그램
 
 ## Project
 
